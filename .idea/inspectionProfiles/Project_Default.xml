@@ -32,5 +32,8 @@
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
       <option name="myAdditionalJavadocTags" value="date" />
     </inspection_tool>
+    <inspection_tool class="Since15" enabled="true" level="ERROR" enabled_by_default="true">
+      <effectiveLL value="JDK_1_8" />
+    </inspection_tool>
   </profile>
 </component>
