@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ioc-container-overview" />
         <module name="java-bean-demo" />
-        <module name="spring" />
+        <module name="spring-overview" />
       </profile>
     </annotationProcessing>
   </component>
