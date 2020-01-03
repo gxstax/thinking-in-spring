@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29bbca4a-45b0-45fe-8c70-1a7041ecb1dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/ioc-container-overview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-bean-demo/java-bean-demo.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-analyse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/src/main/java/com/ant/awares/beannameaware/UserA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/src/main/java/com/ant/awares/beannameaware/UserB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/src/main/java/com/ant/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/src/main/java/com/ant/test/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/target/classes/com/ant/awares/beannameaware/UserA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/target/classes/com/ant/awares/beannameaware/UserB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/target/classes/com/ant/config/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinking-in-spring/target/classes/com/ant/test/ApplicationTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/thinking-in-spring/target/" />
     <ignored path="$PROJECT_DIR$/java-bean-demo/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
+    <ignored path="$PROJECT_DIR$/ioc-container-overview/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,32 +25,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ant/test/ApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioc-container-overview/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-bean-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-bean-demo/src/main/java/com/ant/java/beans/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
               <folding>
-                <element signature="e#424#425#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -69,24 +109,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/beans/BeanInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/beans/PropertyDescriptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -115,6 +137,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -134,6 +157,10 @@
         <option value="$PROJECT_DIR$/java-bean-demo/pom.xml" />
         <option value="$PROJECT_DIR$/java-bean-demo/src/main/java/com/ant/java/beans/BeanInfoDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc-container-overview/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/domain/User.java" />
+        <option value="$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" />
+        <option value="$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml" />
       </list>
     </option>
   </component>
@@ -192,6 +219,59 @@
             </path>
             <path>
               <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="overview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc-container-overview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="java-bean-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thinking-in-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="java-bean-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thinking-in-spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -204,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578013994071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578015335909" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -225,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DependencyLookupDemo">
     <configuration name="BeanInfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ant.java.beans.BeanInfoDemo" />
       <module name="java-bean-demo" />
@@ -239,8 +319,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DependencyLookupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ant.spring.ioc.overview.dependency.lookup.DependencyLookupDemo" />
+      <module name="ioc-container-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ant.spring.ioc.overview.dependency.lookup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DependencyLookupDemo" />
         <item itemvalue="Application.BeanInfoDemo" />
       </list>
     </recent_temporary>
@@ -259,12 +353,12 @@
       <workItem from="1577409679430" duration="3109000" />
       <workItem from="1577520549484" duration="539000" />
       <workItem from="1577522241880" duration="12148000" />
-      <workItem from="1578013568947" duration="424000" />
+      <workItem from="1578013568947" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18196000" />
+    <option name="totallyTimeSpent" value="19523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-192" y="-1080" width="1920" height="1080" extended-state="6" />
@@ -280,7 +374,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,10 +538,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ant/test/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-container-overview/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-container-overview/src/main/java/com/ant/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc-container-overview/src/main/resources/META-INF/dependency-lookup-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
