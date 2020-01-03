@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>thinking-in-spring</module>
+        <module>spring</module>
         <module>java-bean-demo</module>
     </modules>
 
