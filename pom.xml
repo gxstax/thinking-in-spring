@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>spring</module>
+        <module>spring-overview</module>
         <module>java-bean-demo</module>
         <module>ioc-container-overview</module>
     </modules>
