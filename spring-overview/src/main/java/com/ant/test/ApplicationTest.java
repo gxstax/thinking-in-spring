@@ -20,7 +20,6 @@ public class ApplicationTest {
         context.register(AppConfig.class);
         context.refresh();
 
-
         UserA userA = context.getBean(UserA.class);
 
         userA.setBeanName("ss");
