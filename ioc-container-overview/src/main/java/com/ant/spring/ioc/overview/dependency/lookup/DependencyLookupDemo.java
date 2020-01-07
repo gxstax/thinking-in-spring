@@ -19,8 +19,10 @@ import java.util.Map;
  */
 public class DependencyLookupDemo {
     public static void main(String[] args) {
+        // 初始化spring容器上下文环境
         ClassPathXmlApplicationContext context
                 = new ClassPathXmlApplicationContext("/META-INF/dependency-lookup-context.xml");
+
         // 按照类型查找
         lookupByType(context);
 

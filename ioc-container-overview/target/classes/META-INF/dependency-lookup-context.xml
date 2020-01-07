@@ -13,7 +13,6 @@
             <property name="address" value="深圳"></property>
         </bean>
 
-
         <bean id="objectBeanFactory" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean">
             <property name="targetBeanName" value="user"></property>
         </bean>
