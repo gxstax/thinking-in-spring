@@ -11,7 +11,7 @@ import java.util.Collection;
  * 用户信息仓库
  * </p>
  *
- * @author GaoXin
+ * @author Ant gxstax@163.com
  * @since 2020-01-07 08:15
  */
 public class UserRepository {

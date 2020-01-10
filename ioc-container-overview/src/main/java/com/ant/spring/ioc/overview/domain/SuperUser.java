@@ -7,7 +7,7 @@ import com.ant.spring.ioc.overview.annotation.Super;
  * 超级用户
  * </p>
  *
- * @author GaoXin
+ * @author Ant gxstax@163.com
  * @since 2020-01-06 09:06
  */
 @Super

@@ -5,7 +5,7 @@ package com.ant.spring.ioc.overview.domain;
  * 用户类
  * </p>
  *
- * @author Ant
+ * @author Ant gxstax@163.com
  * @since 2020-01-03 09:24
  */
 public class User {

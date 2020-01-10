@@ -14,7 +14,7 @@ import java.util.Map;
  * 依赖查找示例
  * </p>
  *
- * @author Ant
+ * @author Ant gxstax@163.com
  * @since 2020-01-03 09:21
  */
 public class DependencyLookupDemo {
