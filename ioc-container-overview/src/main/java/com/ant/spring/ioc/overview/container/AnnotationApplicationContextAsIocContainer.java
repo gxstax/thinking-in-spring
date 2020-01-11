@@ -31,8 +31,13 @@ public class AnnotationApplicationContextAsIocContainer {
         // 启动IOC上下文
         context.refresh();
 
+        context.close();
+
         // 依赖查找集合对象
         lookupByCollectionType(context);
+
+        // 关闭IOC
+        context.close();
 
     }
 

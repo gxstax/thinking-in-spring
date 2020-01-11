@@ -12,6 +12,7 @@
         <module>spring-overview</module>
         <module>java-bean-demo</module>
         <module>ioc-container-overview</module>
+        <module>spring-bean</module>
     </modules>
 
     <properties>
@@ -35,6 +36,12 @@
 
             <dependency>
                 <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
                 <artifactId>spring-webflux</artifactId>
                 <version>${spring.version}</version>
             </dependency>
@@ -46,5 +53,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 
 </project>
