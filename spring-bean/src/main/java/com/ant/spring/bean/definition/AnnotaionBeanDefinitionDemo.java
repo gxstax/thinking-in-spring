@@ -15,7 +15,7 @@ import org.springframework.util.StringUtils;
  * 注解方式的Bean
  * </p>
  *
- * @author GaoXin
+ * @author Ant gxstax@163.com
  * @since 2020/1/16 8:06 下午
  */
 // 3.通过 @Import 的方式来进行导入
@@ -55,7 +55,7 @@ public class AnnotaionBeanDefinitionDemo {
     public static void registerBeanDefinition(BeanDefinitionRegistry registry, String beanName, Class<?> beanClass) {
         BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition(beanClass);
         beanDefinitionBuilder
-                .addPropertyValue("id", 1)
+                .addPropertyValue("id", 1L)
                 .addPropertyValue("name", "马以");
         if (StringUtils.hasText(beanName)) {
             // 注册 BeanDefiniton

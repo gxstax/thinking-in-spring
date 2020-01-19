@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * BeanAlias Demo
  * </p>
  *
- * @author GaoXin
+ * @author Ant gxstax@163.com
  * @since 2020/1/16 7:55 下午
  */
 public class BeanAliasDemo {

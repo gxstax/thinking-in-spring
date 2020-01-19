@@ -12,7 +12,7 @@ import org.springframework.beans.factory.support.GenericBeanDefinition;
  * {@link org.springframework.beans.factory.config.BeanDefinition} 构建示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant gxstax@163.com
  * @since 2020-01-11 17:02
  */
 public class BeanDefinitionCreationDemo {
