@@ -6,13 +6,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 
 /**
  * <p>
  * Bean 的初始化示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant gxstax@163.com
  * @since 2020/1/20 8:40 上午
  */
 @ComponentScan("com.ant.spring.bean")
@@ -25,13 +26,21 @@ public class BeanInitializationDemo {
         // 启动 Spring 应用上下文
         context.refresh();
 
-        UserFactory bean = context.getBean(UserFactory.class);
+        // 非延迟初始化在 Spring 应用上下文启动完成后，被初始化
+        System.out.println("------------------------- Spring 应用上下文已启动... ---------------------------");
+
+        UserFactory userFactory = context.getBean(UserFactory.class);
+
+        System.out.println("------------------------- Spring 应用上下文准备关闭 ---------------------------");
 
         // 关闭 Spring 应用上下文
         context.close();
+
+        System.out.println("------------------------- Spring 应用上下文已经关闭 ---------------------------");
     }
 
-    @Bean(initMethod = "initUserFactory")
+//    @Lazy
+    @Bean(initMethod = "initUserFactory", destroyMethod = "doDestroy")
     public UserFactory userFactory() {
         return new DefaultUserFactory();
     }
