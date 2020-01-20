@@ -3,6 +3,8 @@ package com.ant.spring.bean.definition;
 import com.ant.spring.bean.factory.UserFactory;
 import com.ant.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Iterator;
@@ -20,15 +22,27 @@ public class SpecialBeanInstantinationDemo {
     public static void main(String[] args) {
         // 配置 XML 文件
         // 启动 Spring 应用上下文
-        BeanFactory beanFactory = new ClassPathXmlApplicationContext("classpath:/META-INF/bean-creation-context.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:/META-INF/special-bean-creation-context.xml");
 
-        serviceLoaderDemo();
+        // 通过 ApplicationContext 获取 AutowireCapableBeanFactory
+        AutowireCapableBeanFactory beanFactory = applicationContext.getAutowireCapableBeanFactory();
+
+        ServiceLoader<UserFactory> serviceLoader = beanFactory.getBean("userFactoryServiceLoader", ServiceLoader.class);
+
+        displayServiceLoader(serviceLoader);
+//        serviceLoaderDemo();
+
+
     }
 
-    public static void serviceLoaderDemo() {
-        ServiceLoader<UserFactory> userFactories = ServiceLoader.load(UserFactory.class, Thread.currentThread().getContextClassLoader());
+    private static void serviceLoaderDemo() {
+        ServiceLoader<UserFactory> serviceLoader = ServiceLoader.load(UserFactory.class, Thread.currentThread().getContextClassLoader());
 
-        Iterator<UserFactory> iterator = userFactories.iterator();
+        displayServiceLoader(serviceLoader);
+    }
+
+    private static void displayServiceLoader(ServiceLoader<UserFactory> serviceLoader) {
+        Iterator<UserFactory> iterator = serviceLoader.iterator();
         while (iterator.hasNext()) {
             UserFactory next = iterator.next();
             System.out.println(next.createUser());
