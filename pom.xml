@@ -13,11 +13,20 @@
         <module>java-bean-demo</module>
         <module>ioc-container-overview</module>
         <module>spring-bean</module>
+        <module>dependency-lookup</module>
     </modules>
 
     <properties>
         <spring.version>5.2.2.RELEASE</spring.version>
     </properties>
+
+    <dependencies>
+        <!-- Spring IOC 核心依赖 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
 
 
     <dependencyManagement>
