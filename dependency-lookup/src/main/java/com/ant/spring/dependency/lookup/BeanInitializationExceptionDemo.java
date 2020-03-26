@@ -10,7 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * {@link BeanInitializationException } 代码示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/2/16 3:09 下午
  */
 public class BeanInitializationExceptionDemo {

@@ -23,11 +23,11 @@ public class TypeSafetyDependencyLookupDemo {
         // 启动 Spring 应用上下文
         context.refresh();
 
-        // 演示 Beanfactory#getBean 方法的安全性(类型非安全)
-        displayBeanFactoryGetBean(context);
-
-        // 演示 Beanfactory#getObject 方法的安全性(类型非安全)
-        displayBeanFactoryGetObject(context);
+//        // 演示 Beanfactory#getBean 方法的安全性(类型非安全)
+//        displayBeanFactoryGetBean(context);
+//
+//        // 演示 Beanfactory#getObject 方法的安全性(类型非安全)
+//        displayBeanFactoryGetObject(context);
 
         // 演示 ObjectProvider#getIfAvailable 方法的安全性(类型安全)
         displayObjectProvideGetIfAvailable(context);

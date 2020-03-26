@@ -12,7 +12,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * 层次性依赖查找示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/2/12 4:09 下午
  */
 public class HierarchicalDependencyLookupDemo {

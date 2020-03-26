@@ -13,7 +13,7 @@ import javax.annotation.PostConstruct;
  * {@link BeanCreationException} 示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/2/16 3:14 下午
  */
 public class BeanCreationExceptionDemo {

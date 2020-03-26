@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
  * {@link NoUniqueBeanDefinitionException} 代码示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/2/16 2:51 下午
  */
 public class NoUniqueBeanDefinitionExceptionDemo {
