@@ -7,7 +7,7 @@ import com.ant.spring.ioc.overview.domain.User;
  * {@link User} 的Holder对象
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/5/7 8:55 上午
  */
 public class UserHolder {

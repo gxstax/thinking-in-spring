@@ -1,25 +1,24 @@
 package com.ant.ioc.dependency.injection;
 
 import com.ant.spring.ioc.overview.domain.User;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 /**
  * <p>
- * 基于 java注解依赖 Setter 方法注入示例
+ * 基于 java注解依赖 Constructor 方法注入示例
  * </p>
  *
  * @author Ant
  * @since 2020/5/7 8:46 上午
  */
-public class AnnotationDependencySetterInjectionDemo {
+public class AnnotationDependencyConstructorInjectionDemo {
     public static void main(String[] args) {
         // 初始化Spring上下文环境
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
         // 注册Configuration Class(配置类)
-        context.register(AnnotationDependencySetterInjectionDemo.class);
+        context.register(AnnotationDependencyConstructorInjectionDemo.class);
 
         /** 这里偷懒使用 XML 的方式把bean扫描到上下文环境当中 **/
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(context);
@@ -45,8 +44,9 @@ public class AnnotationDependencySetterInjectionDemo {
 
     @Bean
     public UserHolder UserHolder(User user) {
-        UserHolder userHolder = new UserHolder();
-        userHolder.setUser(user);
-        return userHolder;
+        /**
+         * 这里使用java注解来注入，如果上下文中有user对象，这里就会注入进来
+         */
+        return new UserHolder(user);
     }
 }

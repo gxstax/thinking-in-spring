@@ -8,7 +8,7 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
  * 基于 XML 资源依赖 Setter 方法注入示例
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/5/7 8:46 上午
  */
 public class XmlDependencySetterInjectionDemo {
