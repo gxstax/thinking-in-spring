@@ -3,6 +3,9 @@ package com.ant.spring.ioc.overview.domain;
 import com.ant.spring.ioc.overview.enums.City;
 import org.springframework.core.io.Resource;
 
+import java.util.Arrays;
+import java.util.List;
+
 
 /**
  * <p>
@@ -19,6 +22,10 @@ public class User {
     private String name;
 
     private City city;
+
+    private City[] workCities;
+
+    private List<City> lifeCities;
 
     private Resource configFileLocation;
 
@@ -54,12 +61,30 @@ public class User {
         this.configFileLocation = configFileLocation;
     }
 
+    public City[] getWorkCities() {
+        return workCities;
+    }
+
+    public void setWorkCities(City[] workCities) {
+        this.workCities = workCities;
+    }
+
+    public List<City> getLifeCities() {
+        return lifeCities;
+    }
+
+    public void setLifeCities(List<City> lifeCities) {
+        this.lifeCities = lifeCities;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", city=" + city +
+                ", workCities=" + Arrays.toString(workCities) +
+                ", lifeCities=" + lifeCities +
                 ", configFileLocation=" + configFileLocation +
                 '}';
     }
